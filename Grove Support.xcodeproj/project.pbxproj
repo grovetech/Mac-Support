@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,23 @@
 		113E0E6422B164A700E4295B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113E0E6222B164A700E4295B /* Main.storyboard */; };
 		113E0E7022B164A700E4295B /* Grove_SupportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113E0E6F22B164A700E4295B /* Grove_SupportTests.swift */; };
 		113E0E7B22B164A700E4295B /* Grove_SupportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113E0E7A22B164A700E4295B /* Grove_SupportUITests.swift */; };
+		113E0E8922B164E600E4295B /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113E0E8822B164E600E4295B /* EventMonitor.swift */; };
+		1141962122B296E800B51DED /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = 1141962022B296E800B51DED /* info.html */; };
+		1141962322B2970600B51DED /* store.html in Resources */ = {isa = PBXBuildFile; fileRef = 1141962222B2970600B51DED /* store.html */; };
+		1141962622B2972E00B51DED /* calendar.html in Resources */ = {isa = PBXBuildFile; fileRef = 1141962422B2972E00B51DED /* calendar.html */; };
+		1141962722B2972E00B51DED /* blog.html in Resources */ = {isa = PBXBuildFile; fileRef = 1141962522B2972E00B51DED /* blog.html */; };
+		1141962A22B2988700B51DED /* common.js in Resources */ = {isa = PBXBuildFile; fileRef = 1141962822B2988700B51DED /* common.js */; };
+		1141962B22B2988700B51DED /* common.css in Resources */ = {isa = PBXBuildFile; fileRef = 1141962922B2988700B51DED /* common.css */; };
+		11C37EBD22B16D46006D3997 /* offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C37EBB22B16D46006D3997 /* offline.png */; };
+		11C37EBE22B16D46006D3997 /* first_tab.html in Resources */ = {isa = PBXBuildFile; fileRef = 11C37EBC22B16D46006D3997 /* first_tab.html */; };
+		11C37EC122B16ED9006D3997 /* spinnerbar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 11C37EC022B16ED9006D3997 /* spinnerbar.gif */; };
+		11CA48F622B2A047009B401F /* Available Updates_000000_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 11CA48F522B2A047009B401F /* Available Updates_000000_25.png */; };
+		11CA48F822B2A19C009B401F /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 11CA48F722B2A19C009B401F /* dsa_pub.pem */; };
+		39DEA2EB6618813BA36BEE78 /* Pods_Grove_Support.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EDFCEBDFECAF67EB6FBC37 /* Pods_Grove_Support.framework */; };
+		FC9EEFD822B898F900863918 /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9EEFD722B898F900863918 /* LaunchAtLogin.framework */; };
+		FC9EEFD922B898F900863918 /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9EEFD722B898F900863918 /* LaunchAtLogin.framework */; };
+		FC9EEFDA22B898F900863918 /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9EEFD722B898F900863918 /* LaunchAtLogin.framework */; };
+		FCE8B42D22B3299D00F85B67 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +49,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		11CA48F322B29EB4009B401F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		113E0E5922B164A600E4295B /* Grove Support.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grove Support.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		113E0E5C22B164A600E4295B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,13 +68,30 @@
 		113E0E6022B164A700E4295B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		113E0E6322B164A700E4295B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		113E0E6522B164A700E4295B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		113E0E6622B164A700E4295B /* Grove_Support.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grove_Support.entitlements; sourceTree = "<group>"; };
 		113E0E6B22B164A700E4295B /* Grove SupportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grove SupportTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		113E0E6F22B164A700E4295B /* Grove_SupportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grove_SupportTests.swift; sourceTree = "<group>"; };
 		113E0E7122B164A700E4295B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		113E0E7622B164A700E4295B /* Grove SupportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grove SupportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		113E0E7A22B164A700E4295B /* Grove_SupportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grove_SupportUITests.swift; sourceTree = "<group>"; };
 		113E0E7C22B164A700E4295B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113E0E8822B164E600E4295B /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		1141962022B296E800B51DED /* info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = info.html; sourceTree = "<group>"; };
+		1141962222B2970600B51DED /* store.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = store.html; sourceTree = "<group>"; };
+		1141962422B2972E00B51DED /* calendar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calendar.html; sourceTree = "<group>"; };
+		1141962522B2972E00B51DED /* blog.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blog.html; sourceTree = "<group>"; };
+		1141962822B2988700B51DED /* common.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = common.js; sourceTree = "<group>"; };
+		1141962922B2988700B51DED /* common.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = common.css; sourceTree = "<group>"; };
+		11C37EBB22B16D46006D3997 /* offline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offline.png; sourceTree = "<group>"; };
+		11C37EBC22B16D46006D3997 /* first_tab.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = first_tab.html; sourceTree = "<group>"; };
+		11C37EC022B16ED9006D3997 /* spinnerbar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinnerbar.gif; sourceTree = "<group>"; };
+		11CA48F522B2A047009B401F /* Available Updates_000000_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Available Updates_000000_25.png"; sourceTree = "<group>"; };
+		11CA48F722B2A19C009B401F /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		8038364A5D5DC5BF95237E32 /* Pods-Grove Support.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grove Support.debug.xcconfig"; path = "Target Support Files/Pods-Grove Support/Pods-Grove Support.debug.xcconfig"; sourceTree = "<group>"; };
+		A9EDFCEBDFECAF67EB6FBC37 /* Pods_Grove_Support.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grove_Support.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC76E86AA3B6AC8D490A0AEC /* Pods-Grove Support.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grove Support.release.xcconfig"; path = "Target Support Files/Pods-Grove Support/Pods-Grove Support.release.xcconfig"; sourceTree = "<group>"; };
+		FC4CB3EE22B2FBB600DDFDBC /* Grove Support.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Grove Support.entitlements"; sourceTree = "<group>"; };
+		FC9EEFD722B898F900863918 /* LaunchAtLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LaunchAtLogin.framework; path = Carthage/Build/Mac/LaunchAtLogin.framework; sourceTree = "<group>"; };
+		FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE8B42D22B3299D00F85B67 /* ServiceManagement.framework in Frameworks */,
+				39DEA2EB6618813BA36BEE78 /* Pods_Grove_Support.framework in Frameworks */,
+				FC9EEFD822B898F900863918 /* LaunchAtLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9EEFD922B898F900863918 /* LaunchAtLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9EEFDA22B898F900863918 /* LaunchAtLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +131,8 @@
 				113E0E6E22B164A700E4295B /* Grove SupportTests */,
 				113E0E7922B164A700E4295B /* Grove SupportUITests */,
 				113E0E5A22B164A600E4295B /* Products */,
+				1141962E22B29DC900B51DED /* Frameworks */,
+				659B6031AFA1491C59F81985 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,12 +149,16 @@
 		113E0E5B22B164A600E4295B /* Grove Support */ = {
 			isa = PBXGroup;
 			children = (
+				FC4CB3EE22B2FBB600DDFDBC /* Grove Support.entitlements */,
+				11CA48F722B2A19C009B401F /* dsa_pub.pem */,
+				113E0E8822B164E600E4295B /* EventMonitor.swift */,
 				113E0E5C22B164A600E4295B /* AppDelegate.swift */,
 				113E0E5E22B164A600E4295B /* ViewController.swift */,
+				1141961F22B2968100B51DED /* HTML Files */,
+				1141961E22B2966B00B51DED /* Images */,
 				113E0E6022B164A700E4295B /* Assets.xcassets */,
 				113E0E6222B164A700E4295B /* Main.storyboard */,
 				113E0E6522B164A700E4295B /* Info.plist */,
-				113E0E6622B164A700E4295B /* Grove_Support.entitlements */,
 			);
 			path = "Grove Support";
 			sourceTree = "<group>";
@@ -124,6 +181,49 @@
 			path = "Grove SupportUITests";
 			sourceTree = "<group>";
 		};
+		1141961E22B2966B00B51DED /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				11CA48F522B2A047009B401F /* Available Updates_000000_25.png */,
+				11C37EC022B16ED9006D3997 /* spinnerbar.gif */,
+				11C37EBB22B16D46006D3997 /* offline.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1141961F22B2968100B51DED /* HTML Files */ = {
+			isa = PBXGroup;
+			children = (
+				1141962922B2988700B51DED /* common.css */,
+				1141962822B2988700B51DED /* common.js */,
+				11C37EBC22B16D46006D3997 /* first_tab.html */,
+				1141962522B2972E00B51DED /* blog.html */,
+				1141962422B2972E00B51DED /* calendar.html */,
+				1141962222B2970600B51DED /* store.html */,
+				1141962022B296E800B51DED /* info.html */,
+			);
+			path = "HTML Files";
+			sourceTree = "<group>";
+		};
+		1141962E22B29DC900B51DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC9EEFD722B898F900863918 /* LaunchAtLogin.framework */,
+				FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */,
+				A9EDFCEBDFECAF67EB6FBC37 /* Pods_Grove_Support.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		659B6031AFA1491C59F81985 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8038364A5D5DC5BF95237E32 /* Pods-Grove Support.debug.xcconfig */,
+				DC76E86AA3B6AC8D490A0AEC /* Pods-Grove Support.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +231,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 113E0E7F22B164A700E4295B /* Build configuration list for PBXNativeTarget "Grove Support" */;
 			buildPhases = (
+				B050EEE15442D3C5E8B22C9D /* [CP] Check Pods Manifest.lock */,
 				113E0E5522B164A600E4295B /* Sources */,
 				113E0E5622B164A600E4295B /* Frameworks */,
 				113E0E5722B164A600E4295B /* Resources */,
+				11CA48F322B29EB4009B401F /* CopyFiles */,
+				4B7830A8D2C9B7D0D139BC97 /* [CP] Embed Pods Frameworks */,
+				FC9EEFDB22B8991F00863918 /* ShellScript */,
+				FC6E0DB322B8884700264B29 /* ShellScript */,
+				FC5ACB3C22B3017E00EC5D52 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -192,6 +298,17 @@
 				TargetAttributes = {
 					113E0E5822B164A600E4295B = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					113E0E6A22B164A700E4295B = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -228,8 +345,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1141962322B2970600B51DED /* store.html in Resources */,
+				1141962B22B2988700B51DED /* common.css in Resources */,
 				113E0E6122B164A700E4295B /* Assets.xcassets in Resources */,
+				1141962722B2972E00B51DED /* blog.html in Resources */,
+				1141962622B2972E00B51DED /* calendar.html in Resources */,
 				113E0E6422B164A700E4295B /* Main.storyboard in Resources */,
+				1141962122B296E800B51DED /* info.html in Resources */,
+				11C37EBD22B16D46006D3997 /* offline.png in Resources */,
+				11CA48F822B2A19C009B401F /* dsa_pub.pem in Resources */,
+				11C37EC122B16ED9006D3997 /* spinnerbar.gif in Resources */,
+				11C37EBE22B16D46006D3997 /* first_tab.html in Resources */,
+				11CA48F622B2A047009B401F /* Available Updates_000000_25.png in Resources */,
+				1141962A22B2988700B51DED /* common.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,11 +377,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B7830A8D2C9B7D0D139BC97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grove Support/Pods-Grove Support-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grove Support/Pods-Grove Support-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grove Support/Pods-Grove Support-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B050EEE15442D3C5E8B22C9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grove Support-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC5ACB3C22B3017E00EC5D52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\nLOCATION2=\"${BUILT_PRODUCTS_DIR}\"/Grove\\ Support.app/Contents/Library/LoginItems\n\n# By default, use the configured code signing identity for the project/target\nIDENTITY=\"Apple Development: Jonathan Brown (E9WTB27D9J)\"\nif [ \"$IDENTITY\" == \"\" ]\nthen\n# If a code signing identity is not specified, use ad hoc signing\nIDENTITY=\"-\"\nfi\ncodesign --verbose --force --deep -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A/Resources/AutoUpdate.app\"\ncodesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"\ncodesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION2/LaunchAtLoginHelper.app\"\n";
+		};
+		FC6E0DB322B8884700264B29 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/Carthage/Build/Mac/LaunchAtLogin.framework/Resources/copy-helper.sh\"\n";
+		};
+		FC9EEFDB22B8991F00863918 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/LaunchAtLogin.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/LaunchAtLogin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		113E0E5522B164A600E4295B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113E0E8922B164E600E4295B /* EventMonitor.swift in Sources */,
 				113E0E5F22B164A600E4295B /* ViewController.swift in Sources */,
 				113E0E5D22B164A600E4295B /* AppDelegate.swift in Sources */,
 			);
@@ -419,38 +643,58 @@
 		};
 		113E0E8022B164A700E4295B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8038364A5D5DC5BF95237E32 /* Pods-Grove Support.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Grove Support/Grove_Support.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Grove\\ Support",
+					"$(PROJECT_DIR)/Grove\\ Support",
+					"$(PROJECT_DIR)/Grove\\ Support",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "Grove Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.grovetech.co.Grove-Support";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrown.org.guruspport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		113E0E8122B164A700E4295B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC76E86AA3B6AC8D490A0AEC /* Pods-Grove Support.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Grove Support/Grove_Support.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Grove\\ Support",
+					"$(PROJECT_DIR)/Grove\\ Support",
+					"$(PROJECT_DIR)/Grove\\ Support",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "Grove Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.grovetech.co.Grove-Support";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrown.org.guruspport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -463,6 +707,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "Grove SupportTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,6 +732,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "Grove SupportTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -504,6 +756,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "Grove SupportUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -524,6 +780,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "Grove SupportUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
