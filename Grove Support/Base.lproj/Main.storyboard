@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="14490.70"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="16097"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -657,7 +658,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="epW-W3-lUk">
-                                <rect key="frame" x="333" y="7" width="40" height="23"/>
+                                <rect key="frame" x="333.5" y="7" width="40" height="23"/>
                                 <buttonCell key="cell" type="roundTextured" title="Quit" bezelStyle="texturedRounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="QPq-ff-gA2">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -666,8 +667,9 @@
                                     <action selector="closeButtonAction:" target="XfG-lQ-9wD" id="TGO-3t-fwW"/>
                                 </connections>
                             </button>
-                            <segmentedControl focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jFj-6f-819">
-                                <rect key="frame" x="32" y="444" width="320" height="23"/>
+                            <segmentedControl focusRingType="none" verticalHuggingPriority="750" ambiguous="YES" id="jFj-6f-819">
+                                <rect key="frame" x="44.5" y="444" width="300" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <segmentedCell key="cell" borderStyle="border" focusRingType="none" alignment="left" style="texturedRounded" trackingMode="selectOne" id="hW0-UN-pHD">
                                     <font key="font" metaFont="system"/>
                                     <segments>
@@ -689,21 +691,8 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Z2j-5h-O9v">
-                                <rect key="frame" x="299" y="11" width="25" height="16"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="16" id="r7s-xW-fKT"/>
-                                </constraints>
-                                <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="Available Updates_000000_25" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="trS-ca-GyR">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="checkForUpdates:" target="JYo-wC-SPg" id="Qz2-nM-p5m"/>
-                                </connections>
-                            </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2iG-Vf-1RQ">
-                                <rect key="frame" x="7" y="10" width="119" height="18"/>
+                                <rect key="frame" x="7" y="11" width="119" height="18"/>
                                 <buttonCell key="cell" type="check" title="Launch at Login" bezelStyle="regularSquare" imagePosition="left" inset="2" id="JTi-K4-hsZ">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -713,25 +702,36 @@
                                     <binding destination="viG-rI-5Ur" name="value" keyPath="values.loginPref" id="0nc-hs-CRK"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Z2j-5h-O9v">
+                                <rect key="frame" x="312" y="7" width="13" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="dm5-lS-CbO"/>
+                                </constraints>
+                                <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="Available Updates_000000_25" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="trS-ca-GyR">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="checkForUpdates:" target="JYo-wC-SPg" id="Qz2-nM-p5m"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="epW-W3-lUk" secondAttribute="trailing" constant="12.5" id="1Og-x8-GuS"/>
-                            <constraint firstItem="Z2j-5h-O9v" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="299" id="1Rc-sq-Oia"/>
                             <constraint firstAttribute="trailing" secondItem="awp-F0-vX8" secondAttribute="trailing" id="3L8-Km-qxi"/>
-                            <constraint firstItem="epW-W3-lUk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Z2j-5h-O9v" secondAttribute="trailing" constant="8" symbolic="YES" id="4Q3-Ag-Rru"/>
-                            <constraint firstItem="Z2j-5h-O9v" firstAttribute="baseline" secondItem="epW-W3-lUk" secondAttribute="firstBaseline" id="4a3-FT-6mm"/>
-                            <constraint firstItem="2iG-Vf-1RQ" firstAttribute="baseline" secondItem="Z2j-5h-O9v" secondAttribute="baseline" id="GME-bO-kQD"/>
                             <constraint firstItem="2iG-Vf-1RQ" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="9" id="KBE-O3-9rh"/>
                             <constraint firstItem="jFj-6f-819" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="15" id="VpO-xK-fcz"/>
                             <constraint firstItem="epW-W3-lUk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="aEO-yc-Bml"/>
-                            <constraint firstItem="Z2j-5h-O9v" firstAttribute="centerY" secondItem="epW-W3-lUk" secondAttribute="centerY" id="cFv-gh-gQb"/>
+                            <constraint firstItem="2iG-Vf-1RQ" firstAttribute="baseline" secondItem="epW-W3-lUk" secondAttribute="baseline" id="cRm-WK-pKQ"/>
                             <constraint firstItem="awp-F0-vX8" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="eJX-pQ-bIf"/>
                             <constraint firstAttribute="bottom" secondItem="epW-W3-lUk" secondAttribute="bottom" constant="8" id="fE7-fD-opo"/>
                             <constraint firstItem="jFj-6f-819" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="32" id="nVj-ZJ-McC"/>
                             <constraint firstItem="epW-W3-lUk" firstAttribute="top" secondItem="awp-F0-vX8" secondAttribute="bottom" constant="8" symbolic="YES" id="nie-fi-ogp"/>
                             <constraint firstItem="awp-F0-vX8" firstAttribute="top" secondItem="jFj-6f-819" secondAttribute="bottom" constant="12" id="rBh-sX-Kl8"/>
-                            <constraint firstItem="Z2j-5h-O9v" firstAttribute="baseline" secondItem="epW-W3-lUk" secondAttribute="baseline" id="wV6-My-Vdz"/>
-                            <constraint firstItem="Z2j-5h-O9v" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2iG-Vf-1RQ" secondAttribute="trailing" constant="8" symbolic="YES" id="zun-La-ZWK"/>
+                            <constraint firstItem="epW-W3-lUk" firstAttribute="leading" secondItem="Z2j-5h-O9v" secondAttribute="trailing" constant="8.5" id="sPF-Pl-Aey"/>
+                            <constraint firstItem="Z2j-5h-O9v" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2iG-Vf-1RQ" secondAttribute="trailing" constant="8" symbolic="YES" id="tj2-g5-XUy"/>
+                            <constraint firstAttribute="trailing" secondItem="Z2j-5h-O9v" secondAttribute="trailing" constant="60" id="unA-4O-hPn"/>
+                            <constraint firstItem="Z2j-5h-O9v" firstAttribute="centerY" secondItem="epW-W3-lUk" secondAttribute="centerY" id="vVs-UZ-Lml"/>
                         </constraints>
                     </view>
                     <connections>
@@ -749,6 +749,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Available Updates_000000_25" width="25" height="25"/>
+        <image name="Available Updates_000000_25" width="12.5" height="12.5"/>
     </resources>
 </document>

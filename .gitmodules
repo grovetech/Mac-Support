@@ -1,0 +1,2 @@
+[submodule "Carthage/Checkouts/LaunchAtLogin"]
+	url = https://github.com/sindresorhus/LaunchAtLogin.git

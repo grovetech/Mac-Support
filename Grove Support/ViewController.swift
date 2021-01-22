@@ -12,9 +12,6 @@ import LaunchAtLogin
 
 class ViewController: NSViewController {
     
-    
-    
-    
     @IBOutlet var mainView: NSView!
     @IBOutlet var webView: WKWebView!
     
