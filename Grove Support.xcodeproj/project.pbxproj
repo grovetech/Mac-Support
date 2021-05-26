@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,11 +24,9 @@
 		11C37EBE22B16D46006D3997 /* first_tab.html in Resources */ = {isa = PBXBuildFile; fileRef = 11C37EBC22B16D46006D3997 /* first_tab.html */; };
 		11C37EC122B16ED9006D3997 /* spinnerbar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 11C37EC022B16ED9006D3997 /* spinnerbar.gif */; };
 		11CA48F822B2A19C009B401F /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 11CA48F722B2A19C009B401F /* dsa_pub.pem */; };
-		FC917A8325BA739100AB43AA /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9EEFD722B898F900863918 /* LaunchAtLogin.framework */; };
 		FC917A8725BA739700AB43AA /* Pods_Grove_Support.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8450A29B357074B5D6AE1DB /* Pods_Grove_Support.framework */; };
 		FC917A8925BA739800AB43AA /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */; };
-		FC9EEFD922B898F900863918 /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9EEFD722B898F900863918 /* LaunchAtLogin.framework */; };
-		FC9EEFDA22B898F900863918 /* LaunchAtLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9EEFD722B898F900863918 /* LaunchAtLogin.framework */; };
+		FCD7885A265F016C00CB0718 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = FCD78859265F016C00CB0718 /* LaunchAtLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +74,6 @@
 		D8450A29B357074B5D6AE1DB /* Pods_Grove_Support.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grove_Support.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC76E86AA3B6AC8D490A0AEC /* Pods-Grove Support.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grove Support.release.xcconfig"; path = "Target Support Files/Pods-Grove Support/Pods-Grove Support.release.xcconfig"; sourceTree = "<group>"; };
 		FC4CB3EE22B2FBB600DDFDBC /* Grove Support.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Grove Support.entitlements"; sourceTree = "<group>"; };
-		FC9EEFD722B898F900863918 /* LaunchAtLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LaunchAtLogin.framework; path = Carthage/Build/Mac/LaunchAtLogin.framework; sourceTree = "<group>"; };
 		FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -85,8 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD7885A265F016C00CB0718 /* LaunchAtLogin in Frameworks */,
 				FC917A8925BA739800AB43AA /* ServiceManagement.framework in Frameworks */,
-				FC917A8325BA739100AB43AA /* LaunchAtLogin.framework in Frameworks */,
 				FC917A8725BA739700AB43AA /* Pods_Grove_Support.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,7 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC9EEFD922B898F900863918 /* LaunchAtLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC9EEFDA22B898F900863918 /* LaunchAtLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +188,6 @@
 		1141962E22B29DC900B51DED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC9EEFD722B898F900863918 /* LaunchAtLogin.framework */,
 				FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */,
 				D8450A29B357074B5D6AE1DB /* Pods_Grove_Support.framework */,
 			);
@@ -221,8 +215,6 @@
 				113E0E5622B164A600E4295B /* Frameworks */,
 				113E0E5722B164A600E4295B /* Resources */,
 				4B7830A8D2C9B7D0D139BC97 /* [CP] Embed Pods Frameworks */,
-				FC9EEFDB22B8991F00863918 /* ShellScript */,
-				FC6E0DB322B8884700264B29 /* ShellScript */,
 				FC5ACB3C22B3017E00EC5D52 /* ShellScript */,
 			);
 			buildRules = (
@@ -230,6 +222,9 @@
 			dependencies = (
 			);
 			name = "Grove Support";
+			packageProductDependencies = (
+				FCD78859265F016C00CB0718 /* LaunchAtLogin */,
+			);
 			productName = "Grove Support";
 			productReference = 113E0E5922B164A600E4295B /* Grove Support.app */;
 			productType = "com.apple.product-type.application";
@@ -313,6 +308,9 @@
 				Base,
 			);
 			mainGroup = 113E0E5022B164A600E4295B;
+			packageReferences = (
+				FCD78858265F016C00CB0718 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+			);
 			productRefGroup = 113E0E5A22B164A600E4295B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -415,43 +413,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\nLOCATION2=\"${BUILT_PRODUCTS_DIR}\"/Grove\\ Support.app/Contents/Library/LoginItems\n\n# By default, use the configured code signing identity for the project/target\nIDENTITY=\"Apple Development: Jonathan Brown (E9WTB27D9J)\"\nif [ \"$IDENTITY\" == \"\" ]\nthen\n# If a code signing identity is not specified, use ad hoc signing\nIDENTITY=\"-\"\nfi\ncodesign --verbose --force --deep -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A/Resources/AutoUpdate.app\"\ncodesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"\ncodesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION2/LaunchAtLoginHelper.app\"\n";
-		};
-		FC6E0DB322B8884700264B29 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PROJECT_DIR}/Carthage/Build/Mac/LaunchAtLogin.framework/Resources/copy-helper.sh\"\n";
-		};
-		FC9EEFDB22B8991F00863918 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/Mac/LaunchAtLogin.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/LaunchAtLogin.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+			shellScript = "LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\n\n# By default, use the configured code signing identity for the project/target\nIDENTITY=\"Apple Development: Jonathan Brown (E9WTB27D9J)\"\nif [ \"$IDENTITY\" == \"\" ]\nthen\n# If a code signing identity is not specified, use ad hoc signing\nIDENTITY=\"-\"\nfi\ncodesign --verbose --force --deep -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A/Resources/AutoUpdate.app\"\ncodesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -647,7 +609,6 @@
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Grove Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -681,7 +642,6 @@
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Grove Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -840,6 +800,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FCD78858265F016C00CB0718 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FCD78859265F016C00CB0718 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCD78858265F016C00CB0718 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 113E0E5122B164A600E4295B /* Project object */;
 }
