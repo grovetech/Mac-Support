@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="16097"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="18122"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -658,7 +658,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="epW-W3-lUk">
-                                <rect key="frame" x="333.5" y="7" width="40" height="23"/>
+                                <rect key="frame" x="333" y="6" width="41" height="23"/>
                                 <buttonCell key="cell" type="roundTextured" title="Quit" bezelStyle="texturedRounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="QPq-ff-gA2">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -668,7 +668,7 @@
                                 </connections>
                             </button>
                             <segmentedControl focusRingType="none" verticalHuggingPriority="750" ambiguous="YES" id="jFj-6f-819">
-                                <rect key="frame" x="44.5" y="444" width="300" height="23"/>
+                                <rect key="frame" x="61" y="444" width="258" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <segmentedCell key="cell" borderStyle="border" focusRingType="none" alignment="left" style="texturedRounded" trackingMode="selectOne" id="hW0-UN-pHD">
                                     <font key="font" metaFont="system"/>
@@ -685,14 +685,14 @@
                                 </connections>
                             </segmentedControl>
                             <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="awp-F0-vX8">
-                                <rect key="frame" x="0.0" y="38" width="385" height="395"/>
+                                <rect key="frame" x="0.0" y="36" width="385" height="397"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2iG-Vf-1RQ">
-                                <rect key="frame" x="7" y="11" width="119" height="18"/>
+                                <rect key="frame" x="7" y="10" width="123" height="18"/>
                                 <buttonCell key="cell" type="check" title="Launch at Login" bezelStyle="regularSquare" imagePosition="left" inset="2" id="JTi-K4-hsZ">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -703,7 +703,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Z2j-5h-O9v">
-                                <rect key="frame" x="312" y="7" width="13" height="24"/>
+                                <rect key="frame" x="312" y="6" width="13" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="dm5-lS-CbO"/>
                                 </constraints>
