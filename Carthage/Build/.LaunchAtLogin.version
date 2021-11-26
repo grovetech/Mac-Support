@@ -1,10 +1,11 @@
 {
   "Mac" : [
     {
-      "hash" : "8e9f000872c189394f1137ac44dfd03615075421cfffba5088640ce1ae8a81fe",
+      "swiftToolchainVersion" : "5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)",
+      "hash" : "8693981def76b40f25b7867de15ec034fc2f671f4b0008513d1eda9d50183472",
       "name" : "LaunchAtLogin",
-      "linking" : "dynamic",
-      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+      "container" : "LaunchAtLogin.xcframework",
+      "identifier" : "macos-arm64_x86_64"
     }
   ],
   "watchOS" : [
@@ -13,7 +14,7 @@
   "tvOS" : [
 
   ],
-  "commitish" : "v4.0.0",
+  "commitish" : "v4.2.0",
   "iOS" : [
 
   ]
