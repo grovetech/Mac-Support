@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="18122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="19455"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -668,15 +668,15 @@
                                 </connections>
                             </button>
                             <segmentedControl focusRingType="none" verticalHuggingPriority="750" ambiguous="YES" id="jFj-6f-819">
-                                <rect key="frame" x="61" y="444" width="258" height="24"/>
+                                <rect key="frame" x="48" y="444" width="286" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <segmentedCell key="cell" borderStyle="border" focusRingType="none" alignment="left" style="texturedRounded" trackingMode="selectOne" id="hW0-UN-pHD">
                                     <font key="font" metaFont="system"/>
                                     <segments>
                                         <segment label="Support" selected="YES"/>
-                                        <segment label="Blog" tag="1"/>
-                                        <segment label="Contact"/>
-                                        <segment label="Store"/>
+                                        <segment label="Chat" tag="1"/>
+                                        <segment label="Locations"/>
+                                        <segment label="Reviews"/>
                                         <segment label="Book"/>
                                     </segments>
                                 </segmentedCell>

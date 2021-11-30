@@ -24,6 +24,7 @@
 		11C37EBE22B16D46006D3997 /* first_tab.html in Resources */ = {isa = PBXBuildFile; fileRef = 11C37EBC22B16D46006D3997 /* first_tab.html */; };
 		11C37EC122B16ED9006D3997 /* spinnerbar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 11C37EC022B16ED9006D3997 /* spinnerbar.gif */; };
 		11CA48F822B2A19C009B401F /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 11CA48F722B2A19C009B401F /* dsa_pub.pem */; };
+		FC462D9A2756B55C0069FA87 /* tailwind.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC462D992756B55C0069FA87 /* tailwind.min.css */; };
 		FC917A8725BA739700AB43AA /* Pods_Grove_Support.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8450A29B357074B5D6AE1DB /* Pods_Grove_Support.framework */; };
 		FC917A8925BA739800AB43AA /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */; };
 		FCD7885A265F016C00CB0718 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = FCD78859265F016C00CB0718 /* LaunchAtLogin */; };
@@ -73,6 +74,7 @@
 		8038364A5D5DC5BF95237E32 /* Pods-Grove Support.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grove Support.debug.xcconfig"; path = "Target Support Files/Pods-Grove Support/Pods-Grove Support.debug.xcconfig"; sourceTree = "<group>"; };
 		D8450A29B357074B5D6AE1DB /* Pods_Grove_Support.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grove_Support.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC76E86AA3B6AC8D490A0AEC /* Pods-Grove Support.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grove Support.release.xcconfig"; path = "Target Support Files/Pods-Grove Support/Pods-Grove Support.release.xcconfig"; sourceTree = "<group>"; };
+		FC462D992756B55C0069FA87 /* tailwind.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tailwind.min.css; sourceTree = "<group>"; };
 		FC4CB3EE22B2FBB600DDFDBC /* Grove Support.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Grove Support.entitlements"; sourceTree = "<group>"; };
 		FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -174,6 +176,7 @@
 		1141961F22B2968100B51DED /* HTML Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC462D992756B55C0069FA87 /* tailwind.min.css */,
 				1141962922B2988700B51DED /* common.css */,
 				1141962822B2988700B51DED /* common.js */,
 				11C37EBC22B16D46006D3997 /* first_tab.html */,
@@ -340,6 +343,7 @@
 				11C37EC122B16ED9006D3997 /* spinnerbar.gif in Resources */,
 				11C37EBE22B16D46006D3997 /* first_tab.html in Resources */,
 				1141962A22B2988700B51DED /* common.js in Resources */,
+				FC462D9A2756B55C0069FA87 /* tailwind.min.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

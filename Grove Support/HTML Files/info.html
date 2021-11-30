@@ -3,6 +3,8 @@
 <head>
     <script src="common.js"></script>
     <link rel="stylesheet" type="text/css" href="common.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="tailwind.min.css" media="screen" />
+    <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
 </head>
 
 <body style="background-color: #ffffff;" onload="setTimeout(changeScreenSize, 1000)">
@@ -34,18 +36,36 @@
 
 <b>Contact Info:</b><hr>
 
-Grove Technologies<br>
-1030 15th St NW Suite 1050w,<br>
-Washington, DC 20005<br>
+We are a fully remote &,<br>
+distributed company. <br>For help email support@grovetech.co.<br>
 <br>
 <b>Phone Info:</b><hr>
 <a href="tel:1-862-251-8712">1-862-251-8712</a><br><br>
-<a href="https://www.splashtop.com/sos-download">Initiate Screen Share</a>
+
+<b>Service Area:</b><hr>
+<div id="map" class="rounded-lg overflow-hidden w-full h-96 mt-0 bg-blend-overlay relative shadow-sm">
+    
+</div>
+<script>
+    const tokenID = "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjlDQTZRU05UOEYifQ.eyJpc3MiOiIyRDRaN1dRN1JTIiwiaWF0IjoxNjM1MDgxMjUxLCJleHAiOjE2NjY1Njk2MDB9.jVQVc7lCS7UW-QgtO2pNoLAkMPJ9aJAIIwbud-dyk9OTKwkAMlna8c64aULH0iUgUfOpiX6E_7XTaG4mgEiG6w";
+
+    mapkit.init({
+        authorizationCallback: function(done) {
+            done(tokenID);
+        }
+    });
+    var Washington_DC = new mapkit.CoordinateRegion(
+        new mapkit.Coordinate(38.925750, -77.024651),
+        new mapkit.CoordinateSpan(0.167647972, 0.454985255)
+    );
+    var map = new mapkit.Map("map");
+    map.region = Washington_DC;
+</script>
+
+
 
 </p>
 
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1589827.9996035553!2d-78.15605558362599!3d38.89807810006479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c59b51280123%3A0xe5e06af2d8500ab5!2sGrove+Technologies+-+Mac+Support!5e0!3m2!1sen!2sus!4v1559718119528!5m2!1sen!2sus" width="340" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 </div>
 </body>
