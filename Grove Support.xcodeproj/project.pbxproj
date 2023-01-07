@@ -24,8 +24,9 @@
 		11C37EBE22B16D46006D3997 /* first_tab.html in Resources */ = {isa = PBXBuildFile; fileRef = 11C37EBC22B16D46006D3997 /* first_tab.html */; };
 		11C37EC122B16ED9006D3997 /* spinnerbar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 11C37EC022B16ED9006D3997 /* spinnerbar.gif */; };
 		11CA48F822B2A19C009B401F /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 11CA48F722B2A19C009B401F /* dsa_pub.pem */; };
-		7CC00E20657FCD3BC67A037E /* Pods_Grove_Support.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4BC72B1F391EA88B225A1F /* Pods_Grove_Support.framework */; };
 		FC462D9A2756B55C0069FA87 /* tailwind.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC462D992756B55C0069FA87 /* tailwind.min.css */; };
+		FC77F4B72969E22E00F3AD9F /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC77F4B62969E22D00F3AD9F /* Sparkle.framework */; };
+		FC77F4B82969E22E00F3AD9F /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC77F4B62969E22D00F3AD9F /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FC917A8925BA739800AB43AA /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */; };
 		FCD7885A265F016C00CB0718 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = FCD78859265F016C00CB0718 /* LaunchAtLogin */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,20 @@
 			remoteInfo = "Grove Support";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC77F4B92969E22E00F3AD9F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FC77F4B82969E22E00F3AD9F /* Sparkle.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		113E0E5922B164A600E4295B /* Grove Support.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grove Support.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,11 +86,9 @@
 		11C37EBC22B16D46006D3997 /* first_tab.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = first_tab.html; sourceTree = "<group>"; };
 		11C37EC022B16ED9006D3997 /* spinnerbar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinnerbar.gif; sourceTree = "<group>"; };
 		11CA48F722B2A19C009B401F /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
-		3ACCFF1A7354685ABC854C5E /* Pods-Grove Support.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grove Support.debug.xcconfig"; path = "Target Support Files/Pods-Grove Support/Pods-Grove Support.debug.xcconfig"; sourceTree = "<group>"; };
-		BB4BC72B1F391EA88B225A1F /* Pods_Grove_Support.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grove_Support.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D818B0E71C5C5512A749BDBF /* Pods-Grove Support.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grove Support.release.xcconfig"; path = "Target Support Files/Pods-Grove Support/Pods-Grove Support.release.xcconfig"; sourceTree = "<group>"; };
 		FC462D992756B55C0069FA87 /* tailwind.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tailwind.min.css; sourceTree = "<group>"; };
 		FC4CB3EE22B2FBB600DDFDBC /* Grove Support.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Grove Support.entitlements"; sourceTree = "<group>"; };
+		FC77F4B62969E22D00F3AD9F /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Carthage/Build/Mac/Sparkle.framework; sourceTree = "<group>"; };
 		FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -85,8 +98,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCD7885A265F016C00CB0718 /* LaunchAtLogin in Frameworks */,
+				FC77F4B72969E22E00F3AD9F /* Sparkle.framework in Frameworks */,
 				FC917A8925BA739800AB43AA /* ServiceManagement.framework in Frameworks */,
-				7CC00E20657FCD3BC67A037E /* Pods_Grove_Support.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +128,6 @@
 				113E0E7922B164A700E4295B /* Grove SupportUITests */,
 				113E0E5A22B164A600E4295B /* Products */,
 				1141962E22B29DC900B51DED /* Frameworks */,
-				659B6031AFA1491C59F81985 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,19 +203,10 @@
 		1141962E22B29DC900B51DED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC77F4B62969E22D00F3AD9F /* Sparkle.framework */,
 				FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */,
-				BB4BC72B1F391EA88B225A1F /* Pods_Grove_Support.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		659B6031AFA1491C59F81985 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3ACCFF1A7354685ABC854C5E /* Pods-Grove Support.debug.xcconfig */,
-				D818B0E71C5C5512A749BDBF /* Pods-Grove Support.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,13 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 113E0E7F22B164A700E4295B /* Build configuration list for PBXNativeTarget "Grove Support" */;
 			buildPhases = (
-				3FA9379E1256EE0143A75FA5 /* [CP] Check Pods Manifest.lock */,
 				113E0E5522B164A600E4295B /* Sources */,
 				113E0E5622B164A600E4295B /* Frameworks */,
 				113E0E5722B164A600E4295B /* Resources */,
-				FC5ACB3C22B3017E00EC5D52 /* ShellScript */,
 				FCE7304F265F6E6900C96DC8 /* ShellScript */,
-				92A701C3661EB8C468F8BE21 /* [CP] Embed Pods Frameworks */,
+				FC77F4B92969E22E00F3AD9F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -364,62 +365,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3FA9379E1256EE0143A75FA5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Grove Support-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		92A701C3661EB8C468F8BE21 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Grove Support/Pods-Grove Support-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Grove Support/Pods-Grove Support-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grove Support/Pods-Grove Support-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC5ACB3C22B3017E00EC5D52 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\n\n# By default, use the configured code signing identity for the project/target\nIDENTITY=\"${CODE_SIGN_IDENTITY}\"\nif [ \"$IDENTITY\" == \"\" ]\nthen\n# If a code signing identity is not specified, use ad hoc signing\nIDENTITY=\"-\"\nfi\ncodesign --verbose --force --deep -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A/Resources/AutoUpdate.app\"\ncodesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"\n\n";
-		};
 		FCE7304F265F6E6900C96DC8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 12;
@@ -620,7 +565,6 @@
 		};
 		113E0E8022B164A700E4295B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ACCFF1A7354685ABC854C5E /* Pods-Grove Support.debug.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -640,6 +584,7 @@
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Grove Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -660,7 +605,6 @@
 		};
 		113E0E8122B164A700E4295B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D818B0E71C5C5512A749BDBF /* Pods-Grove Support.release.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -680,6 +624,7 @@
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Grove Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
