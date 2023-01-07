@@ -6,6 +6,6 @@ framework module LaunchAtLogin {
 }
 
 module LaunchAtLogin.Swift {
-    header "LaunchAtLogin-Swift.h"
-    requires objc
+  header "LaunchAtLogin-Swift.h"
+  requires objc
 }

@@ -9,14 +9,12 @@
 /* Begin PBXAggregateTarget section */
 		ED77B4B88587C894E85C361023D67C53 /* Sparkle */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 31C3FA8CADE61CE3FE2492EDBA06C452 /* Build configuration list for PBXAggregateTarget "Sparkle" */;
+			buildConfigurationList = 2C8D06A2289713323892B3638F08AC0B /* Build configuration list for PBXAggregateTarget "Sparkle" */;
 			buildPhases = (
-				9A181939804C9F1E56224ACF31BF086B /* [CP] Copy dSYMs */,
 			);
 			dependencies = (
 			);
 			name = Sparkle;
-			productName = Sparkle;
 		};
 /* End PBXAggregateTarget section */
 
@@ -27,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E3EDA300BD850B1394865B7B82F346C7 /* PBXContainerItemProxy */ = {
+		6AB20509CFB5CF7B65EB0E648E701BBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,39 +35,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FA6C315CC39C04A6325D6C2EA0183AE /* SPUURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUURLRequest.h; path = Sparkle.framework/Versions/A/Headers/SPUURLRequest.h; sourceTree = "<group>"; };
-		16B7579C7FE971542B4DD9927A143575 /* Sparkle-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Sparkle-copy-dsyms.sh"; sourceTree = "<group>"; };
 		1DE59E11ADB2A302CC96ACB20A5C4BF8 /* Pods-Grove Support.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grove Support.release.xcconfig"; sourceTree = "<group>"; };
-		1E5E81070AEE122E1F275B71DB14E3D7 /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
-		21DF7D1A6661B3857DEFB225AE0F9F57 /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
+		2B08644E5662381A038EE8579D628192 /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/B/Headers/SUExport.h; sourceTree = "<group>"; };
+		3692921BFEAB2E428E88A828CF1A5698 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		39B0016730C4F9D7F5DB150B582AE8CB /* Pods-Grove Support.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Grove Support.modulemap"; sourceTree = "<group>"; };
 		3AE9873E41C0D764B65C47299F5657EC /* Pods-Grove Support-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Grove Support-Info.plist"; sourceTree = "<group>"; };
-		417C88C51B3BE16948654F2FCB66EB2E /* SUCodeSigningVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUCodeSigningVerifier.h; path = Sparkle.framework/Versions/A/Headers/SUCodeSigningVerifier.h; sourceTree = "<group>"; };
-		47C03DB72D276BED7D2C4894868BA0D7 /* SPUDownloadData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloadData.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloadData.h; sourceTree = "<group>"; };
-		5FBF75E57515B6295CE7B03A2D9631A5 /* Sparkle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.release.xcconfig; sourceTree = "<group>"; };
+		40444A702CEECD24DA3B5A910B1EA1E2 /* SPUUpdateCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUUpdateCheck.h; path = Sparkle.framework/Versions/B/Headers/SPUUpdateCheck.h; sourceTree = "<group>"; };
+		447754C2DD0B83ED4B89F50C40589D3A /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/B/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
+		496013A14354CB263EA6BB40CBFA781B /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/B/Headers/SUUpdater.h; sourceTree = "<group>"; };
+		523A70236BA4668557B9267534B3D200 /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/B/Headers/Sparkle.h; sourceTree = "<group>"; };
+		53B4C2215E1D558217FFD909893A3168 /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/B/Headers/SUErrors.h; sourceTree = "<group>"; };
+		5B47D0F746CDF97B9630790CAE7717DB /* SPUUserDriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUUserDriver.h; path = Sparkle.framework/Versions/B/Headers/SPUUserDriver.h; sourceTree = "<group>"; };
 		69DACD5638FE9A150F415306F29B5DBB /* Pods-Grove Support.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grove Support.debug.xcconfig"; sourceTree = "<group>"; };
-		787B488EE9EF857E94CEF6672C97EF62 /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
-		8C3D691DA8C093A8F024633A9BB46945 /* Sparkle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.debug.xcconfig; sourceTree = "<group>"; };
+		69F937330231DC32508EB19C460AD933 /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/B/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
+		8121F45D8CC2452921E603E4E8F5E14F /* SPUStandardUpdaterController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUStandardUpdaterController.h; path = Sparkle.framework/Versions/B/Headers/SPUStandardUpdaterController.h; sourceTree = "<group>"; };
+		8366390C55D2D0ED2EFDD341E514EA54 /* SPUUserUpdateState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUUserUpdateState.h; path = Sparkle.framework/Versions/B/Headers/SPUUserUpdateState.h; sourceTree = "<group>"; };
+		88C19C93AD90AF30BDE99B6CBA0C736B /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/B/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
 		8CE2FB142ECBA1E0FB60995F2510B4BF /* Pods-Grove Support-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Grove Support-dummy.m"; sourceTree = "<group>"; };
-		8D39ABBEF76CF8A84E6F2C1AACCDCB19 /* SPUDownloaderSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderSession.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderSession.h; sourceTree = "<group>"; };
 		900D9B38FCE69073551A32D6774C4121 /* Pods-Grove Support-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Grove Support-umbrella.h"; sourceTree = "<group>"; };
-		95AF8E3C9F9395DD45ED21E858DDC5B3 /* Pods_Grove_Support.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grove_Support.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C51D500C5AF818BF538AF18D0D86B3A /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		9D35C631A7581BD57A71651785354937 /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E1AD7D07431A286629E6BEEEA51EB77 /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
-		B217038D7B712A7655CBB0518096B093 /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
-		B825F0C0073E24520520B5F3CCB0E3C1 /* SPUDownloaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDelegate.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDelegate.h; sourceTree = "<group>"; };
+		95AF8E3C9F9395DD45ED21E858DDC5B3 /* Pods-Grove Support */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Grove Support"; path = Pods_Grove_Support.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A2775BA6C64DD8BF05EBD8BDF29615 /* SPUUpdatePermissionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUUpdatePermissionRequest.h; path = Sparkle.framework/Versions/B/Headers/SPUUpdatePermissionRequest.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7805BEEFA98FA8E6671BE2432C03864 /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/B/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
 		BAC8BA1818C354ED3F5C0E610EB3DC07 /* Pods-Grove Support-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Grove Support-acknowledgements.plist"; sourceTree = "<group>"; };
-		BC1FF2D9890C3E7DB54A0213202EAB1A /* SPUDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloader.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloader.h; sourceTree = "<group>"; };
 		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		C1F617395A6F92CDD3356A6FC6F15D4F /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
-		C60F88046BF1A979D0BC9E7C1F0B00B1 /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
-		CD9899C66FC40CC2CEDDAC1865C31E1B /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
+		C4AA89F433D92260C7728AD4465CC687 /* SPUUpdaterSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUUpdaterSettings.h; path = Sparkle.framework/Versions/B/Headers/SPUUpdaterSettings.h; sourceTree = "<group>"; };
+		D226446C0D0388DF545256BA990DB153 /* SUUpdatePermissionResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdatePermissionResponse.h; path = Sparkle.framework/Versions/B/Headers/SUUpdatePermissionResponse.h; sourceTree = "<group>"; };
+		D992A85877C0B020BCAE3921C74E4AED /* Sparkle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.debug.xcconfig; sourceTree = "<group>"; };
+		D9BF534E3D665C3B882EE658A3B152DF /* SPUStandardUserDriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUStandardUserDriver.h; path = Sparkle.framework/Versions/B/Headers/SPUStandardUserDriver.h; sourceTree = "<group>"; };
 		DB556110467FF79BDDEF92E433014303 /* Pods-Grove Support-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Grove Support-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB928E0B9078208EA713CA1F863C65F4 /* SPUStandardUserDriverDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUStandardUserDriverDelegate.h; path = Sparkle.framework/Versions/B/Headers/SPUStandardUserDriverDelegate.h; sourceTree = "<group>"; };
+		DC1C9427A0865BB40CBB21735CC925FF /* SPUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUUpdater.h; path = Sparkle.framework/Versions/B/Headers/SPUUpdater.h; sourceTree = "<group>"; };
+		E2D53785B42BEAFEE860FA5A11CD5B23 /* SPUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUUpdaterDelegate.h; path = Sparkle.framework/Versions/B/Headers/SPUUpdaterDelegate.h; sourceTree = "<group>"; };
+		E9F3841320FEBEF95833418704C82CEE /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/B/Headers/SUAppcast.h; sourceTree = "<group>"; };
+		EE39C930CFA5A34F152A069D35749012 /* SPUDownloadData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloadData.h; path = Sparkle.framework/Versions/B/Headers/SPUDownloadData.h; sourceTree = "<group>"; };
 		F425FB7F67967291B1AB54C7B4C1401C /* Pods-Grove Support-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Grove Support-frameworks.sh"; sourceTree = "<group>"; };
-		FA7CB0E555617928B4851C18596C8956 /* SPUDownloaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderProtocol.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderProtocol.h; sourceTree = "<group>"; };
-		FFFDD30491C8F42CB506FC77969DAC9D /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
+		F656722E25E4BACECA58FDD05371B859 /* Sparkle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.release.xcconfig; sourceTree = "<group>"; };
+		F9AA62F41867FC037EE7C04444A4577C /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/B/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,14 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0158964EF082911E5F65CA6796078282 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9C51D500C5AF818BF538AF18D0D86B3A /* Sparkle.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		267AB733A9FD2CD9C7171650D81D5325 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,31 +94,70 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		2A915B166BB7857929410A967B196A86 /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				523A70236BA4668557B9267534B3D200 /* Sparkle.h */,
+				EE39C930CFA5A34F152A069D35749012 /* SPUDownloadData.h */,
+				8121F45D8CC2452921E603E4E8F5E14F /* SPUStandardUpdaterController.h */,
+				D9BF534E3D665C3B882EE658A3B152DF /* SPUStandardUserDriver.h */,
+				DB928E0B9078208EA713CA1F863C65F4 /* SPUStandardUserDriverDelegate.h */,
+				40444A702CEECD24DA3B5A910B1EA1E2 /* SPUUpdateCheck.h */,
+				99A2775BA6C64DD8BF05EBD8BDF29615 /* SPUUpdatePermissionRequest.h */,
+				DC1C9427A0865BB40CBB21735CC925FF /* SPUUpdater.h */,
+				E2D53785B42BEAFEE860FA5A11CD5B23 /* SPUUpdaterDelegate.h */,
+				C4AA89F433D92260C7728AD4465CC687 /* SPUUpdaterSettings.h */,
+				5B47D0F746CDF97B9630790CAE7717DB /* SPUUserDriver.h */,
+				8366390C55D2D0ED2EFDD341E514EA54 /* SPUUserUpdateState.h */,
+				E9F3841320FEBEF95833418704C82CEE /* SUAppcast.h */,
+				88C19C93AD90AF30BDE99B6CBA0C736B /* SUAppcastItem.h */,
+				53B4C2215E1D558217FFD909893A3168 /* SUErrors.h */,
+				2B08644E5662381A038EE8579D628192 /* SUExport.h */,
+				F9AA62F41867FC037EE7C04444A4577C /* SUStandardVersionComparator.h */,
+				D226446C0D0388DF545256BA990DB153 /* SUUpdatePermissionResponse.h */,
+				496013A14354CB263EA6BB40CBFA781B /* SUUpdater.h */,
+				69F937330231DC32508EB19C460AD933 /* SUUpdaterDelegate.h */,
+				447754C2DD0B83ED4B89F50C40589D3A /* SUVersionComparisonProtocol.h */,
+				A7805BEEFA98FA8E6671BE2432C03864 /* SUVersionDisplayProtocol.h */,
+				9ABB2D7703A25AFE8B702EE13D49971F /* Frameworks */,
+				63C846F39CE550B12A5F919CC401FF49 /* Support Files */,
+			);
+			name = Sparkle;
+			path = Sparkle;
+			sourceTree = "<group>";
+		};
 		46799C3972188C4BAA8766CFFA766835 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95AF8E3C9F9395DD45ED21E858DDC5B3 /* Pods_Grove_Support.framework */,
+				95AF8E3C9F9395DD45ED21E858DDC5B3 /* Pods-Grove Support */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79C52F67EF122FA1365E0CBC92B4B05F /* Pods */ = {
+		538D7938013D0440118FE4FDBCE913A7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CDF6C56D29DFCD6A812A937FB3B9516F /* Sparkle */,
+				2A915B166BB7857929410A967B196A86 /* Sparkle */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		89072685FB386ECAE1A25DBCC1998E59 /* Support Files */ = {
+		63C846F39CE550B12A5F919CC401FF49 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				16B7579C7FE971542B4DD9927A143575 /* Sparkle-copy-dsyms.sh */,
-				8C3D691DA8C093A8F024633A9BB46945 /* Sparkle.debug.xcconfig */,
-				5FBF75E57515B6295CE7B03A2D9631A5 /* Sparkle.release.xcconfig */,
+				D992A85877C0B020BCAE3921C74E4AED /* Sparkle.debug.xcconfig */,
+				F656722E25E4BACECA58FDD05371B859 /* Sparkle.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Sparkle";
+			sourceTree = "<group>";
+		};
+		9ABB2D7703A25AFE8B702EE13D49971F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3692921BFEAB2E428E88A828CF1A5698 /* Sparkle.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C2E6B8061AC3A766450585A70785D588 /* Pods-Grove Support */ = {
@@ -144,38 +177,12 @@
 			path = "Target Support Files/Pods-Grove Support";
 			sourceTree = "<group>";
 		};
-		CDF6C56D29DFCD6A812A937FB3B9516F /* Sparkle */ = {
-			isa = PBXGroup;
-			children = (
-				21DF7D1A6661B3857DEFB225AE0F9F57 /* Sparkle.h */,
-				47C03DB72D276BED7D2C4894868BA0D7 /* SPUDownloadData.h */,
-				BC1FF2D9890C3E7DB54A0213202EAB1A /* SPUDownloader.h */,
-				B825F0C0073E24520520B5F3CCB0E3C1 /* SPUDownloaderDelegate.h */,
-				FA7CB0E555617928B4851C18596C8956 /* SPUDownloaderProtocol.h */,
-				8D39ABBEF76CF8A84E6F2C1AACCDCB19 /* SPUDownloaderSession.h */,
-				0FA6C315CC39C04A6325D6C2EA0183AE /* SPUURLRequest.h */,
-				9E1AD7D07431A286629E6BEEEA51EB77 /* SUAppcast.h */,
-				CD9899C66FC40CC2CEDDAC1865C31E1B /* SUAppcastItem.h */,
-				417C88C51B3BE16948654F2FCB66EB2E /* SUCodeSigningVerifier.h */,
-				9D35C631A7581BD57A71651785354937 /* SUErrors.h */,
-				1E5E81070AEE122E1F275B71DB14E3D7 /* SUExport.h */,
-				FFFDD30491C8F42CB506FC77969DAC9D /* SUStandardVersionComparator.h */,
-				787B488EE9EF857E94CEF6672C97EF62 /* SUUpdater.h */,
-				C60F88046BF1A979D0BC9E7C1F0B00B1 /* SUUpdaterDelegate.h */,
-				B217038D7B712A7655CBB0518096B093 /* SUVersionComparisonProtocol.h */,
-				C1F617395A6F92CDD3356A6FC6F15D4F /* SUVersionDisplayProtocol.h */,
-				0158964EF082911E5F65CA6796078282 /* Frameworks */,
-				89072685FB386ECAE1A25DBCC1998E59 /* Support Files */,
-			);
-			path = Sparkle;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
-				79C52F67EF122FA1365E0CBC92B4B05F /* Pods */,
+				538D7938013D0440118FE4FDBCE913A7 /* Pods */,
 				46799C3972188C4BAA8766CFFA766835 /* Products */,
 				267AB733A9FD2CD9C7171650D81D5325 /* Targets Support Files */,
 			);
@@ -223,11 +230,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				BBB66C46B32471A240FC2AE0D9C9CC1E /* PBXTargetDependency */,
+				C181F017527A86E1CC0C1191434BB4DE /* PBXTargetDependency */,
 			);
 			name = "Pods-Grove Support";
 			productName = Pods_Grove_Support;
-			productReference = 95AF8E3C9F9395DD45ED21E858DDC5B3 /* Pods_Grove_Support.framework */;
+			productReference = 95AF8E3C9F9395DD45ED21E858DDC5B3 /* Pods-Grove Support */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -236,8 +243,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1310;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 12.0";
@@ -268,26 +275,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		9A181939804C9F1E56224ACF31BF086B /* [CP] Copy dSYMs */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Sparkle/Sparkle-copy-dsyms-input-files.xcfilelist",
-			);
-			name = "[CP] Copy dSYMs";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Sparkle/Sparkle-copy-dsyms-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Sparkle/Sparkle-copy-dsyms.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		981B1B243239C8D5B605498C3E0221CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -300,16 +287,53 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BBB66C46B32471A240FC2AE0D9C9CC1E /* PBXTargetDependency */ = {
+		C181F017527A86E1CC0C1191434BB4DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Sparkle;
 			target = ED77B4B88587C894E85C361023D67C53 /* Sparkle */;
-			targetProxy = E3EDA300BD850B1394865B7B82F346C7 /* PBXContainerItemProxy */;
+			targetProxy = 6AB20509CFB5CF7B65EB0E648E701BBD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AE172D8F2A4843BFACAD21A0ED26541 /* Release */ = {
+		74A5100F5DB1E01F106C77FD76A905C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DACD5638FE9A150F415306F29B5DBB /* Pods-Grove Support.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Grove Support/Pods-Grove Support-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-Grove Support/Pods-Grove Support.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82E73717A2562031D5E1F4D85DD1A982 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,49 +395,48 @@
 			};
 			name = Release;
 		};
-		226BD176295B94FC8705DE1107E5077E /* Debug */ = {
+		89EEAA3D4B5AE73BC396E346297A72CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69DACD5638FE9A150F415306F29B5DBB /* Pods-Grove Support.debug.xcconfig */;
+			baseConfigurationReference = D992A85877C0B020BCAE3921C74E4AED /* Sparkle.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Grove Support/Pods-Grove Support-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MODULEMAP_FILE = "Target Support Files/Pods-Grove Support/Pods-Grove Support.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6F88147BE16210DBD7978DFC43857497 /* Release */ = {
+		A942265E7027F239A3D0EB8401940DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F656722E25E4BACECA58FDD05371B859 /* Sparkle.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C4BD2251C35DE78023932E8860CDB8E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1DE59E11ADB2A302CC96ACB20A5C4BF8 /* Pods-Grove Support.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -431,7 +454,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = "Target Support Files/Pods-Grove Support/Pods-Grove Support.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -445,7 +468,7 @@
 			};
 			name = Release;
 		};
-		808E544862838153672EA12FCC127D9A /* Debug */ = {
+		D39E634FC2CFF97419EB3682DD2807FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -498,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -511,46 +534,14 @@
 			};
 			name = Debug;
 		};
-		DBBD2247B2CC6D15A7DE9D05CA4C30E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C3D691DA8C093A8F024633A9BB46945 /* Sparkle.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				COMBINE_HIDPI_IMAGES = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		F84E7A7485F0E2F1E055E5C2D5BB7B7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FBF75E57515B6295CE7B03A2D9631A5 /* Sparkle.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				COMBINE_HIDPI_IMAGES = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31C3FA8CADE61CE3FE2492EDBA06C452 /* Build configuration list for PBXAggregateTarget "Sparkle" */ = {
+		2C8D06A2289713323892B3638F08AC0B /* Build configuration list for PBXAggregateTarget "Sparkle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBBD2247B2CC6D15A7DE9D05CA4C30E4 /* Debug */,
-				F84E7A7485F0E2F1E055E5C2D5BB7B7A /* Release */,
+				89EEAA3D4B5AE73BC396E346297A72CC /* Debug */,
+				A942265E7027F239A3D0EB8401940DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -558,8 +549,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				808E544862838153672EA12FCC127D9A /* Debug */,
-				0AE172D8F2A4843BFACAD21A0ED26541 /* Release */,
+				D39E634FC2CFF97419EB3682DD2807FA /* Debug */,
+				82E73717A2562031D5E1F4D85DD1A982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -567,8 +558,8 @@
 		D43FADBD6DB485131166FAE86F9211F9 /* Build configuration list for PBXNativeTarget "Pods-Grove Support" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				226BD176295B94FC8705DE1107E5077E /* Debug */,
-				6F88147BE16210DBD7978DFC43857497 /* Release */,
+				74A5100F5DB1E01F106C77FD76A905C9 /* Debug */,
+				C4BD2251C35DE78023932E8860CDB8E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
