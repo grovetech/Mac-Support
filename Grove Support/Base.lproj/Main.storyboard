@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="21507"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22155"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="22155"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -644,7 +644,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Grove_Support" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Interlaced_io" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
@@ -652,7 +652,7 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController storyboardIdentifier="ViewControllerId" showSeguePresentationStyle="single" id="XfG-lQ-9wD" customClass="ViewController" customModule="Grove_Support" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewControllerId" showSeguePresentationStyle="single" id="XfG-lQ-9wD" customClass="ViewController" customModule="Interlaced_io" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="385" height="482"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -668,15 +668,14 @@
                                 </connections>
                             </button>
                             <segmentedControl focusRingType="none" verticalHuggingPriority="750" ambiguous="YES" id="jFj-6f-819">
-                                <rect key="frame" x="48" y="444" width="286" height="24"/>
+                                <rect key="frame" x="44" y="444" width="296" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <segmentedCell key="cell" borderStyle="border" focusRingType="none" alignment="left" style="texturedRounded" trackingMode="selectOne" id="hW0-UN-pHD">
                                     <font key="font" metaFont="system"/>
                                     <segments>
                                         <segment label="Support" selected="YES"/>
-                                        <segment label="Chat" tag="1"/>
-                                        <segment label="Locations"/>
-                                        <segment label="Reviews"/>
+                                        <segment label="Contact" tag="1"/>
+                                        <segment label="Hours &amp; Locations"/>
                                         <segment label="Book"/>
                                     </segments>
                                 </segmentedCell>
@@ -684,8 +683,9 @@
                                     <action selector="SwitchButton:" target="XfG-lQ-9wD" id="l4H-v6-vOx"/>
                                 </connections>
                             </segmentedControl>
-                            <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="awp-F0-vX8">
+                            <wkWebView wantsLayer="YES" id="awp-F0-vX8">
                                 <rect key="frame" x="0.0" y="36" width="385" height="397"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
@@ -703,16 +703,16 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Z2j-5h-O9v">
-                                <rect key="frame" x="313" y="6" width="12" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="24" id="dm5-lS-CbO"/>
-                                </constraints>
-                                <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="Available Updates_000000_25" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="trS-ca-GyR">
+                                <rect key="frame" x="311" y="3" width="14" height="31"/>
+                                <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="NSTouchBarRefreshTemplate" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="trS-ca-GyR">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="dm5-lS-CbO"/>
+                                </constraints>
                                 <connections>
-                                    <action selector="checkForUpdates:" target="JYo-wC-SPg" id="Qz2-nM-p5m"/>
+                                    <action selector="checkForUpdates:" target="JYo-wC-SPg" id="K6B-n1-nM7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -735,6 +735,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Updater" destination="JYo-wC-SPg" id="r0v-Ve-zwF"/>
                         <outlet property="acSwitch" destination="jFj-6f-819" id="GG4-pU-EZY"/>
                         <outlet property="launchLogin" destination="2iG-Vf-1RQ" id="aWn-BK-hT3"/>
                         <outlet property="mainView" destination="m2S-Jp-Qdl" id="Hyk-gc-ZD7"/>
@@ -742,13 +743,13 @@
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-                <customObject id="JYo-wC-SPg" customClass="SUUpdater"/>
+                <customObject id="JYo-wC-SPg" customClass="SPUStandardUpdaterController"/>
                 <userDefaultsController representsSharedInstance="YES" id="viG-rI-5Ur"/>
             </objects>
             <point key="canvasLocation" x="112.5" y="416"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Available Updates_000000_25" width="12.5" height="12.5"/>
+        <image name="NSTouchBarRefreshTemplate" width="17" height="20"/>
     </resources>
 </document>

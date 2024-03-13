@@ -31,8 +31,10 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>SUFeedURL</key>
-	<string>https://shine.jonbrown.org/appcast.php?id=6</string>
+	<string>https://grovetech.co/appcasts/ms_appcast.xml</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
+	<key>SUPublicEDKey</key>
+	<string>ZhZZ1WkO/YGSrgrghVOk10hRX6qyJtofgwM+GPuS/Bk=</string>
 </dict>
 </plist>

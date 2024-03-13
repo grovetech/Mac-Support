@@ -9,8 +9,11 @@
 import Cocoa
 import WebKit
 import LaunchAtLogin
+import Sparkle
 
 class ViewController: NSViewController {
+    
+    
     
     @IBOutlet var mainView: NSView!
     @IBOutlet var webView: WKWebView!
@@ -62,11 +65,6 @@ class ViewController: NSViewController {
             }
             break
         case 3:
-            if let url = Bundle.main.url(forResource: "store", withExtension: "html") {
-                webView.load(URLRequest(url: url))
-            }
-            break
-        case 4:
             if let url = Bundle.main.url(forResource: "calendar", withExtension: "html") {
                 webView.load(URLRequest(url: url))
             }
@@ -81,8 +79,12 @@ class ViewController: NSViewController {
         print("Selected Seg: \(acSwitch.selectedSegment)")
     }
     
+    @IBOutlet var Updater: SPUStandardUpdaterController!
     
     override func viewDidLoad() {
+        
+        
+        
         super.viewDidLoad()
         
         if let url = Bundle.main.url(forResource: "first_tab", withExtension: "html") {

@@ -25,10 +25,9 @@
 		11C37EC122B16ED9006D3997 /* spinnerbar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 11C37EC022B16ED9006D3997 /* spinnerbar.gif */; };
 		11CA48F822B2A19C009B401F /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 11CA48F722B2A19C009B401F /* dsa_pub.pem */; };
 		FC462D9A2756B55C0069FA87 /* tailwind.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC462D992756B55C0069FA87 /* tailwind.min.css */; };
-		FC77F4B72969E22E00F3AD9F /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC77F4B62969E22D00F3AD9F /* Sparkle.framework */; };
-		FC77F4B82969E22E00F3AD9F /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC77F4B62969E22D00F3AD9F /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FC917A8925BA739800AB43AA /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */; };
 		FCD7885A265F016C00CB0718 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = FCD78859265F016C00CB0718 /* LaunchAtLogin */; };
+		FCEDB8802BA14C9300769FD3 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = FCEDB87F2BA14C9300769FD3 /* Sparkle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FC77F4B82969E22E00F3AD9F /* Sparkle.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		113E0E5922B164A600E4295B /* Grove Support.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grove Support.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		113E0E5922B164A600E4295B /* Interlaced.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interlaced.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		113E0E5C22B164A600E4295B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		113E0E5E22B164A600E4295B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		113E0E6022B164A700E4295B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 		11CA48F722B2A19C009B401F /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		FC462D992756B55C0069FA87 /* tailwind.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tailwind.min.css; sourceTree = "<group>"; };
 		FC4CB3EE22B2FBB600DDFDBC /* Grove Support.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Grove Support.entitlements"; sourceTree = "<group>"; };
-		FC77F4B62969E22D00F3AD9F /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Carthage/Build/Mac/Sparkle.framework; sourceTree = "<group>"; };
 		FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -98,7 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCD7885A265F016C00CB0718 /* LaunchAtLogin in Frameworks */,
-				FC77F4B72969E22E00F3AD9F /* Sparkle.framework in Frameworks */,
+				FCEDB8802BA14C9300769FD3 /* Sparkle in Frameworks */,
 				FC917A8925BA739800AB43AA /* ServiceManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +131,7 @@
 		113E0E5A22B164A600E4295B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				113E0E5922B164A600E4295B /* Grove Support.app */,
+				113E0E5922B164A600E4295B /* Interlaced.io.app */,
 				113E0E6B22B164A700E4295B /* Grove SupportTests.xctest */,
 				113E0E7622B164A700E4295B /* Grove SupportUITests.xctest */,
 			);
@@ -203,7 +200,6 @@
 		1141962E22B29DC900B51DED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC77F4B62969E22D00F3AD9F /* Sparkle.framework */,
 				FCE8B42C22B3299D00F85B67 /* ServiceManagement.framework */,
 			);
 			name = Frameworks;
@@ -212,9 +208,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		113E0E5822B164A600E4295B /* Grove Support */ = {
+		113E0E5822B164A600E4295B /* Interlaced.io */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 113E0E7F22B164A700E4295B /* Build configuration list for PBXNativeTarget "Grove Support" */;
+			buildConfigurationList = 113E0E7F22B164A700E4295B /* Build configuration list for PBXNativeTarget "Interlaced.io" */;
 			buildPhases = (
 				113E0E5522B164A600E4295B /* Sources */,
 				113E0E5622B164A600E4295B /* Frameworks */,
@@ -226,12 +222,13 @@
 			);
 			dependencies = (
 			);
-			name = "Grove Support";
+			name = Interlaced.io;
 			packageProductDependencies = (
 				FCD78859265F016C00CB0718 /* LaunchAtLogin */,
+				FCEDB87F2BA14C9300769FD3 /* Sparkle */,
 			);
 			productName = "Grove Support";
-			productReference = 113E0E5922B164A600E4295B /* Grove Support.app */;
+			productReference = 113E0E5922B164A600E4295B /* Interlaced.io.app */;
 			productType = "com.apple.product-type.application";
 		};
 		113E0E6A22B164A700E4295B /* Grove SupportTests */ = {
@@ -276,8 +273,9 @@
 		113E0E5122B164A600E4295B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1530;
 				ORGANIZATIONNAME = "Jon Brown";
 				TargetAttributes = {
 					113E0E5822B164A600E4295B = {
@@ -315,12 +313,13 @@
 			mainGroup = 113E0E5022B164A600E4295B;
 			packageReferences = (
 				FCD78858265F016C00CB0718 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+				FCEDB87E2BA14C9300769FD3 /* XCRemoteSwiftPackageReference "Sparkle" */,
 			);
 			productRefGroup = 113E0E5A22B164A600E4295B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				113E0E5822B164A600E4295B /* Grove Support */,
+				113E0E5822B164A600E4295B /* Interlaced.io */,
 				113E0E6A22B164A700E4295B /* Grove SupportTests */,
 				113E0E7522B164A700E4295B /* Grove SupportUITests */,
 			);
@@ -416,12 +415,12 @@
 /* Begin PBXTargetDependency section */
 		113E0E6D22B164A700E4295B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 113E0E5822B164A600E4295B /* Grove Support */;
+			target = 113E0E5822B164A600E4295B /* Interlaced.io */;
 			targetProxy = 113E0E6C22B164A700E4295B /* PBXContainerItemProxy */;
 		};
 		113E0E7822B164A700E4295B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 113E0E5822B164A600E4295B /* Grove Support */;
+			target = 113E0E5822B164A600E4295B /* Interlaced.io */;
 			targetProxy = 113E0E7722B164A700E4295B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -479,6 +479,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -508,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -545,6 +547,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -574,26 +577,27 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8.5;
+				CURRENT_PROJECT_VERSION = 9.0.1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				"EXCLUDED_ARCHS[sdk=*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Grove Support/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Interlaced.io;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@loader_path/../Frameworks",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 8.5;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 9.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrown.org.guruspport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -614,26 +618,27 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8.5;
+				CURRENT_PROJECT_VERSION = 9.0.1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				"EXCLUDED_ARCHS[sdk=*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
 					"$(PROJECT_DIR)/Grove\\ Support",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Grove Support/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Interlaced.io;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@loader_path/../Frameworks",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 8.5;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 9.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonbrown.org.guruspport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -761,7 +766,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		113E0E7F22B164A700E4295B /* Build configuration list for PBXNativeTarget "Grove Support" */ = {
+		113E0E7F22B164A700E4295B /* Build configuration list for PBXNativeTarget "Interlaced.io" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				113E0E8022B164A700E4295B /* Debug */,
@@ -799,6 +804,14 @@
 				minimumVersion = 4.1.0;
 			};
 		};
+		FCEDB87E2BA14C9300769FD3 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -806,6 +819,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FCD78858265F016C00CB0718 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
 			productName = LaunchAtLogin;
+		};
+		FCEDB87F2BA14C9300769FD3 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCEDB87E2BA14C9300769FD3 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
